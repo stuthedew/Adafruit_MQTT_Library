@@ -80,7 +80,7 @@ mosquitto
 
 ---
 
-## Using Example Python Subscriber:
+## Example Python Subscriber:
 
 ####Installing Python subscriber
 Install dependencies if you haven't already
@@ -90,7 +90,7 @@ pip install -r requirements.txt
 ```
 
 
-####Installing Python subscriber
+####Using Python subscriber
 Run python script with default values and watch your parsed data print out.
 ```bash
 python subscriber.py #Add -h flag to see modifiable options
