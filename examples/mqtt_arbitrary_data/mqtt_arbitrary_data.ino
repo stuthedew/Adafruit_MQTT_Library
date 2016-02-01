@@ -16,10 +16,7 @@
   Modifed from the mqtt_esp8266 example written by Tony DiCola for Adafruit Industries.
   MIT license, all text above must be included in any redistribution
  ****************************************************/
-#ifdef ESP8266
 #include <ESP8266WiFi.h>
-#endif
-
 #include "Adafruit_MQTT.h"
 #include "Adafruit_MQTT_Client.h"
 
