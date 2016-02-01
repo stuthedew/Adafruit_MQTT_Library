@@ -1,5 +1,5 @@
 /***************************************************
-  Adafruit MQTT Library Arbitrary Data Example
+  Adafruit MQTT Library Arbitrary Data ESP8266 Example
 
   Must use ESP8266 Arduino from:
     https://github.com/esp8266/Arduino
