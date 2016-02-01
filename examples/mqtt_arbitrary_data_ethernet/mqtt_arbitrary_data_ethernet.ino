@@ -111,20 +111,10 @@ void setup() {
 
   Serial.println(F("Adafruit MQTT demo"));
 
-  // Connect to WiFi access point.
-  Serial.println(); Serial.println();
-  Serial.print(F("Connecting to "));
-  Serial.println(WLAN_SSID);
-
-  WiFi.begin(WLAN_SSID, WLAN_PASS);
-  while (WiFi.status() != WL_CONNECTED) {
-    delay(500);
-    Serial.print(F("."));
-  }
-  Serial.println();
-
-  Serial.println(F("WiFi connected"));
-  Serial.println(F("IP address: ")); Serial.println(WiFi.localIP());
+  // Initialise the Client
+  Serial.print(F("\nInit the Client..."));
+  Ethernet.begin(mac);
+  delay(1000); //give the ethernet a second to initialize
 
 }
 
